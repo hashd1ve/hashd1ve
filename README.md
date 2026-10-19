@@ -27,8 +27,6 @@ local hardware, agents and developer tools, and small experiments on how they wo
   [apodex-1.1-mini-one-dgx-spark](https://github.com/hashd1ve/apodex-1.1-mini-one-dgx-spark),
   [yue2-dgx-spark](https://github.com/hashd1ve/yue2-dgx-spark)
 - **Agents and tools** · [agent-charts](https://github.com/hashd1ve/agent-charts) (charts for coding agents in the
-  terminal), [geo-audit-skill](https://github.com/hashd1ve/geo-audit-skill), [symphony](https://github.com/hashd1ve/symphony)
-- **Markets and data** · [openrouter-pulse](https://github.com/hashd1ve/openrouter-pulse): what the LLM market is
-  actually doing, from OpenRouter's data
+  terminal), [geo-audit-skill](https://github.com/hashd1ve/geo-audit-skill)
 - **Research** · [operator-universality](https://github.com/hashd1ve/operator-universality) (do independently trained
   LMs share a state-update operator?), [nanogpt-experiments](https://github.com/hashd1ve/nanogpt-experiments)
