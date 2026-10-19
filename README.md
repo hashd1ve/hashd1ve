@@ -3,6 +3,8 @@
 Data scientist and AI engineer. I work with financial and on-chain data, and I build with LLMs: serving them on
 local hardware, agents and developer tools, and small experiments on how they work inside.
 
+[X / Twitter: @hashd1ve](https://x.com/hashd1ve)
+
 ## What I do
 
 - **Data science** · financial and on-chain data: analytics, research tools and data products.
