@@ -25,7 +25,9 @@ local hardware, agents and developer tools, and small experiments on how they wo
 
 ## Projects
 
-- **Inference** · [qwen38-flash-next-one-dgx-spark](https://github.com/hashd1ve/qwen38-flash-next-one-dgx-spark),
+- **Inference** · [deepseek-v4.1-flash-2x-dgx-spark](https://github.com/hashd1ve/deepseek-v4.1-flash-2x-dgx-spark)
+  (DeepSeek-V4.1-Flash on two DGX Sparks for agent work: 1M context, 4 streams, the engine fixes it needed),
+  [qwen38-flash-next-one-dgx-spark](https://github.com/hashd1ve/qwen38-flash-next-one-dgx-spark),
   [apodex-1.1-mini-one-dgx-spark](https://github.com/hashd1ve/apodex-1.1-mini-one-dgx-spark),
   [yue2-dgx-spark](https://github.com/hashd1ve/yue2-dgx-spark)
 - **Agents and tools** · [agent-charts](https://github.com/hashd1ve/agent-charts) (charts for coding agents in the
