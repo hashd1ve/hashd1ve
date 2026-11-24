@@ -2,6 +2,8 @@
 
 AI engineer. I make large models run fast on small hardware, I train small models that companies pay for, and I open
 models up to see how they work. My lab is two NVIDIA DGX Sparks (GB10, Blackwell) linked at 200 Gb/s over RoCE.
+Previously, I built [Hashdive](https://www.hashdive.com), a Polymarket analytics platform, as a solo founder and sold it
+to Unusual Whales.
 
 Every speedup here ships with its check: the same perplexity, or output identical bit for bit. When I get something
 wrong, the correction goes at the top of the README.
@@ -44,7 +46,6 @@ wrong, the correction goes at the top of the README.
   [#28](https://github.com/bertholomus/TensorFold/pull/28) and [#29](https://github.com/bertholomus/TensorFold/pull/29)
   (merged): shared prompt prefixes keep their state, prompts with images resume from cache, and long prompts no
   longer stall the other sessions.
-- **[edgartools](https://github.com/dgunning/edgartools)** · [4 merged PRs](https://github.com/dgunning/edgartools/pulls?q=is%3Apr+author%3Ahashd1ve+is%3Amerged) to the SEC EDGAR library.
 - **[terax-ai](https://github.com/crynta/terax-ai)** · [1 merged PR](https://github.com/crynta/terax-ai/pulls?q=is%3Apr+author%3Ahashd1ve+is%3Amerged).
 
 ## More projects
@@ -53,7 +54,18 @@ wrong, the correction goes at the top of the README.
   faster with byte-identical output),
   [qwen38-flash-next-one-dgx-spark](https://github.com/hashd1ve/qwen38-flash-next-one-dgx-spark),
   [apodex-1.1-mini-one-dgx-spark](https://github.com/hashd1ve/apodex-1.1-mini-one-dgx-spark)
-- **Data** · [openrouter-pulse](https://github.com/hashd1ve/openrouter-pulse) (what the LLM market is actually doing,
-  from OpenRouter's public data). By day I also do data science on financial and on-chain data.
 - **Agents and tools** · [agent-charts](https://github.com/hashd1ve/agent-charts) (charts for coding agents in the
   terminal), [geo-audit-skill](https://github.com/hashd1ve/geo-audit-skill)
+
+## Finance and on-chain data
+
+By day I do data science on financial and on-chain data: analytics, research tools and data products.
+
+- **[Hashdive](https://www.hashdive.com)** · a Polymarket analytics platform I built as a solo founder and sold to
+  Unusual Whales.
+- **[edgartools](https://github.com/dgunning/edgartools)** · [4 merged PRs](https://github.com/dgunning/edgartools/pulls?q=is%3Apr+author%3Ahashd1ve+is%3Amerged)
+  to the SEC EDGAR library: 13F holdings in its MCP server again, fund series that answer with their own filings, and
+  BDC names matched on their words.
+- **[openrouter-pulse](https://github.com/hashd1ve/openrouter-pulse)** · what the LLM market is actually doing, from
+  OpenRouter's public data: workload fingerprinting, implied value and market concentration, in a reproducible DuckDB
+  pipeline.
